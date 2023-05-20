@@ -30,9 +30,6 @@ This repository was created for the Take-Home Test from Babbel.
 >**Answer:7 -** Yes, it would be the same because I would handle the corrupted, duplicated records and enhensment of the existing data on DB Level.
 
 # Architecture Options
-**Alternative-1**
-![architecture_alternative_1](https://github.com/emrekabalcii/babbel/assets/architecture_alternative_1.png)
+![architecture_alternative_1](assets/architecture_alternative_1.png)
 
-
-**Alternative-2**
-![architecture_alternative_2](https://github.com/emrekabalcii/babbel/assets/architecture_alternative_2.png)
+![architecture_alternative_2](assets/architecture_alternative_2.png)
