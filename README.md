@@ -28,3 +28,11 @@ This repository was created for the Take-Home Test from Babbel.
 
 ● **Question 7:** Would your proposed solution still be the same if adding fields / transforming the data is no longer needed?
 >**Answer:7 -** Yes, it would be the same because I would handle the corrupted, duplicated records and enhensment of the existing data on DB Level.
+
+# Architecture Options
+**Alternative-1**
+![image](https://github.com/emrekabalcii/babbel/assets/9528391/bcd8c433-49c0-4267-9565-9e53955d8f06)
+
+
+**Alternative-2**
+![image](https://github.com/emrekabalcii/babbel/assets/9528391/6252ee8e-1762-4cfc-bfeb-b4d84bc6d739)
