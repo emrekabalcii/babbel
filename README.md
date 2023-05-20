@@ -12,7 +12,7 @@ This repository was created for the Take-Home Test from Babbel.
 ●**Question 2:** How would you partition the data to ensure good querying performance and scalability?
 >**Answer 2:** 
 > - We have 100 different types of events, and all delivering mixed together. So, if we store all records in 1 table - I wouldn't do that- we can partition our table with created_date derived from the created_at field, and event_type derived from event_name.
-> - I would recommend splitting those events and storing each of them on their own table. After that, we can partition each of the event tables with the created_date that is derived from the created_at field.
+> - I would recommend splitting those events and storing each of them on their own table (e.g. account_creation_event, payment_order_completed_event). After that, we can partition each of the event tables with the created_date that is derived from the created_at field.
 
 ● **Question 3:** What format would you use to store the data?
 >**Answer 3:** I would use the parquet as the format of our events on S3. Then I would create my event tables with Delta formatted.
