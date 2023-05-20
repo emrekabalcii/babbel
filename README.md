@@ -31,8 +31,8 @@ This repository was created for the Take-Home Test from Babbel.
 
 # Architecture Options
 **Alternative-1**
-![image](https://github.com/emrekabalcii/babbel/assets/9528391/bcd8c433-49c0-4267-9565-9e53955d8f06)
+![architecture_alternative_1](https://github.com/emrekabalcii/babbel/assets/architecture_alternative_1.png)
 
 
 **Alternative-2**
-![image](https://github.com/emrekabalcii/babbel/assets/9528391/6252ee8e-1762-4cfc-bfeb-b4d84bc6d739)
+![architecture_alternative_2](https://github.com/emrekabalcii/babbel/assets/architecture_alternative_2.png)
