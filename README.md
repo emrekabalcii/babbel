@@ -37,3 +37,10 @@ This repository was created for the Take-Home Test from Babbel.
 ![architecture_alternative_1](assets/architecture_alternative_1.png)
 
 ![architecture_alternative_2](assets/architecture_alternative_2.png)
+
+### Prerequirements
+
+Before start to use this code, please make sure that you already set required environment variables.
+
+- export AWS_ACCESS_KEY_ID="my-access-key"
+- export AWS_SECRET_ACCESS_KEY="my-secret-key"
