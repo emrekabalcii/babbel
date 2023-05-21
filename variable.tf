@@ -37,3 +37,20 @@ variable "s3_bucket_path" {
     default     = "babbel_events_bucket"
 }
 
+variable "glue_catalog_database_name" {
+    description = "The Glue catalog database name"
+    type        = string
+}
+
+variable "glue_catalog_table_name" {
+    description = "The Glue catalog database table name"
+    type        = string
+}
+
+variable "glue_catalog_table_columns" {
+    description = "A list of table columns"
+    type        = map(object({
+        name = string
+        type = string
+    }))
+}
