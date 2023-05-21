@@ -37,8 +37,3 @@ variable "s3_bucket_path" {
     default     = "babbel_events_bucket"
 }
 
-variable "storage_input_format" {
-    description = "storage input format"
-    type        = string
-    default     = ""
-}

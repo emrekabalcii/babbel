@@ -44,3 +44,9 @@ Before start to use this code, please make sure that you already set required en
 
 - export AWS_ACCESS_KEY_ID="my-access-key"
 - export AWS_SECRET_ACCESS_KEY="my-secret-key"
+
+### Usage
+
+>**make plan:** `terraform plan -var-file="env/$(value ENV).tfvars" -out $(value ENV).plan`
+>**make apply:** `terraform plan -var-file="env/$(value ENV).tfvars" -out $(value ENV).plan` && `terraform apply $(value ENV).plan`
+>**make destroy:** `terraform destroy -var-file="env/$(value ENV).tfvars"`
